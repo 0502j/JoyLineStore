@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css_produtos.css">
+  </head>
+
+  <body style="background-color:whitesmoke">
+<div class="card">
+  <div class="top-section">
+    <img id="image-container" src="img/produto-2.png" alt="">
+      <br>
+    <div class="nav">
+      <img onclick="change_img(this)" src="img/produto-2-v2.png" alt="">
+      <img onclick="change_img(this)" src="img/produto-2-v3.png" alt="">
+      <img onclick="change_img(this)" src="img/produto-2-v4.png" alt="">
+    </div>
+    <div class="price">R$99,99</div>
+  </div>
+  <div class="product-info">
+    <div class="name">BOLSA DE OMBRO COM CORRENTE</div>
+    <div class="dis"><img src="img/4,5estrelas.png" style="width:170px;height:40px;"></div>
+    <a class="btn" href="av-bolsa2.html">Ver avaliações</a>
+  </div>
+    <br>
+    <form class="formpagamento" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="9HUYMSLZFW4GJ">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="Cor">Selecione uma cor:</td></tr><tr><td><select name="os0">
+            <option value="Preto -">Preto - R$99,99</option>
+            <option value="Branco -">Branco - R$99,99</option>
+            <option value="Teste -">Teste - R$0,01</option>
+        </select> </td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="BRL">
+        <input class="imgpagar" type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    <p class="textodescricao" style="text-align:right;margin-right:10px; font-size:20px;">Frete grátis</p>
+
+
+    <br>
+    <a href="index.html"  style="background-color:#6ab04c;" id="btvoltar" class="btn btn-primary">Voltar ao início</a>
+
+    </form>
+
+</div>
+  <script type="text/javascript">
+    var container = document.getElementById("image-container");
+    function change_img(image) {
+      container.src = image.src;
+    }
+  </script>
+
+  </body>
+</html>
