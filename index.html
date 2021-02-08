@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400&display=swap" rel="stylesheet">
+
+    <!--Css-->
+    <link rel="stylesheet" type="text/css" href="css_index.css">
+
+
+    <!--Carrossel-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--GRID - List view -->
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <title>JoyLine</title>
+</head>
+
+<body style="background-color:whitesmoke">
+
+<!-- Barra superior de navegação-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#" id="titulo_inicial">JoyLine</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="duvidas.html">Dúvidas <span class="sr-only">(Página atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- fim da Barra superior de navegação-->
+
+<!--Carousel superior do site-->
+
+<div class="container-carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/carousel-1.png" alt="Los Angeles" style="width:100%;">
+            </div>
+
+            <div class="item">
+                <img src="img/carousel-2.png" alt="Chicago" style="width:100%; ">
+            </div>
+
+            <div class="item">
+                <img src="img/carousel-3.png" alt="New york" style="width:100%;">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!--fim do Carousel superior do site-->
+
+<br><br><br>
+<!--inicio dos produtos-->
+
+
+<h3 class="titulo-produtos">Confira nossas categorias</h3>
+<img class="char-produtos" src="img/char.png">
+
+<br> <br>
+
+<div class="wrapper">
+    <div class="links">
+        <ul>
+            <li data-view="list-view" class="li-list active">
+                <i class="fas fa-th-list"></i>
+                Lista</li>
+            <li data-view="grid-view" class="li-grid">
+                <i class="fas fa-th-large"></i>
+                Grid</li>
+        </ul>
+    </div>
+    <div class="view_main">
+        <div class="view_wrap list-view" style="display: block;">
+            <div class="view_item">
+                <div class="vi_left">
+                    <img src="img/cat-bolsas.png" alt="Bolsas">
+                </div>
+                <div class="vi_right">
+                    <p class="title">Bolsas</p>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit, veniam! Voluptate a impedit animi!</p>
+                   <a href="bolsas.html"><div class="btn">Ver mais</div></a>
+                </div>
+            </div>
+            <div class="view_item">
+                <div class="vi_left">
+                    <img src="img/cat-acessorios.png" alt="acessórios">
+                </div>
+                <div class="vi_right">
+                    <p class="title">Acessórios</p>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit, veniam! Voluptate a impedit animi!</p>
+                    <div class="btn">Ver mais</div>
+                </div>
+            </div>
+            <div class="view_item">
+                <div class="vi_left">
+                    <img src="img/cat-papelaria.png" alt="papelaria">
+                </div>
+                <div class="vi_right">
+                    <p class="title">Papelaria</p>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit, veniam! Voluptate a impedit animi!</p>
+                    <div class="btn">Ver mais</div>
+                </div>
+            </div>
+            <div class="view_item">
+                <div class="vi_left">
+                    <img src="img/cat-sapatos.png" alt="sapatos">
+                </div>
+                <div class="vi_right">
+                    <p class="title">Sapatos</p>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit, veniam! Voluptate a impedit animi!</p>
+                    <div class="btn">Ver mais</div>
+                </div>
+            </div>
+            <div class="view_item">
+                <div class="vi_left">
+                    <img src="img/cat-roupas.png" alt="roupas">
+                </div>
+                <div class="vi_right">
+                    <p class="title">Roupas</p>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit, veniam! Voluptate a impedit animi!</p>
+                    <div class="btn">Ver mais</div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+
+
+
+<!-- fim dos produtos-->
+
+
+
+<!-- JavaScript (Opcional) -->
+
+
+
+</body>
+</html>
